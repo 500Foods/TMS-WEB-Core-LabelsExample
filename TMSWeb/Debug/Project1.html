@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFFFFF">
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <link rel="icon" sizes="192x192" href="IconResMid.png">
+    <link rel="apple-touch-icon" href="IconResMid.png">
+    <link rel=manifest href="Manifest.json"/>
+    <title>TMS Web Project</title>
+    <script type="text/javascript" src="Project1.js"></script>
+
+
+    <!-- Bootstrap 5.2.1-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- FontAwesome v6 Free -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+    <!-- Tabulator -->
+    <script src="https://cdn.jsdelivr.net/npm/tabulator-tables@5/dist/js/tabulator.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tabulator-tables@5/dist/css/tabulator.min.css">
+
+    <!-- Interact.js -->
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+    <!-- Labels custom CSS -->
+    <link rel="stylesheet" href="labels.css">
+
+
+  </head>
+  <body>
+    <script type="text/javascript">
+      if ("serviceWorker" in navigator)
+      {
+         navigator.serviceWorker.register("ServiceWorker.js").then(
+           function(ARegistration)
+           {}).catch(
+             function(AErr)
+             {
+               console.log("TMS WEB Core service worker registration failed", AErr);
+             });
+      }
+    </script>
+  </body>
+  <script type="text/javascript">
+    rtl.run();
+  </script>
+</html>
