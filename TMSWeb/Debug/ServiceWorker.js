@@ -1,4 +1,4 @@
-﻿var CACHE_NAME = "Project1";
+var CACHE_NAME = "Project1";
 var CACHED_URLS = [
   "Project1.html",
   "labels.css",
