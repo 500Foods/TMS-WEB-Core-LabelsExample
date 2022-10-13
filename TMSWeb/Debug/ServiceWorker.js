@@ -3,7 +3,8 @@ var CACHED_URLS = [
   "Project1.html",
   "labels.css",
   "Project1.js",
-  "Unit1.html"
+  "Unit1.html",
+  "UnitLabelName.html"
   ];
 
 self.addEventListener('install', function(event) {
