@@ -4,17 +4,20 @@
 [![Count Lines of Code](https://github.com/500Foods/TMS-WEB-Core-LabelsExample/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/TMS-WEB-Core-LabelsExample/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last Updated at 2023-11-27 01:52:22 UTC
+Last Updated at 2023-11-27 02:49:43 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Pascal                           2             48             62            160
-Delphi Form                      1              0              0             39
-Markdown                         1              8              2             39
-YAML                             2             11             13             33
-HTML                             2              7              0             23
+Pascal                           5            156            360           4336
+Delphi Form                      3              0              0           1522
+CSS                              1             17             10            107
+HTML                             2             13             10             48
+YAML                             2              8             12             33
+JSON                             1              0              0             30
+JavaScript                       1              3              0             25
+Markdown                         1              2              2             19
 -------------------------------------------------------------------------------
-SUM:                             8             74             77            294
+SUM:                            16            199            394           6120
 -------------------------------------------------------------------------------
 ```
 <!--CLOC-END-->
